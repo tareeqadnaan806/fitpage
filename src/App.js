@@ -9,7 +9,7 @@ const App = () => {
   const [stockData, setStockData] = useState([]);
 
   useEffect(() => {
-    const url = "https://fitpage4.free.beeceptor.com/fitpage4";
+    const url = "https://fitpage5.free.beeceptor.com/fitpage5";
     fetch(url)
       .then((res) => res.json())
       .then((data) => setStockData(data));
