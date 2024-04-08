@@ -15,7 +15,7 @@ const Variables = ({ stockData }) => {
               criterion.variable &&
               criterion.variable[`$${word}`] &&
               criterion.variable[`$${word}`].values &&
-              criterion.variable[`$${word}`].values.map((value, type) => {
+              criterion.variable[`$${word}`].values.map((value) => {
                 return (
                   <div>
                     <h3 className="border-b-2 p-1 border-dotted">{value}</h3>
